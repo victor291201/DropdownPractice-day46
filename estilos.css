@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
+*,*::after,*::before{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr);
+  font-family: Raleway; 
+}
+body div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  width: 105px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:none;
+  cursor: pointer;
+  font-family: Raleway; 
+}
+
+li{
+  font-size: 15px;  
+}
+.ctn-1 div{
+  width: 120px;
+  height: 110px;
+  display: grid;
+  grid-template-rows: 30px 80px;
+  margin-top: 80px;
+}
+.ctn-1 div button{
+  background-color: black;
+  color: white;
+}
+.ctn-1 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-1 div div{
+  position: relative;
+  top: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+.ctn-1 div div ul{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: red;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  transition: 1s all ease;
+  overflow: hidden;
+}
+.ctn-1 div div ul li{
+  margin:6px 10px;
+  color: white;
+}
+.remove-1{
+  height: 0px !important;
+  transition: 1s all ease;
+}
+
+
+.ctn-2 div{
+  width: 120px;
+  height: 110px;
+  display: grid;
+  grid-template-rows: 30px 80px;
+  margin-top: 80px;
+}
+.ctn-2 div button{
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+}
+.ctn-2 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-2 div div{
+  position: relative;
+  top: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+.ctn-2 div div ul{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  transition: 1s all ease;
+  overflow: hidden;
+  margin-top: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-2 div div ul li{
+  margin:6px 10px;
+}
+.remove-2{
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+
+
+.ctn-3 div{
+  width: 120px;
+  height: 110px;
+  display: grid;
+  grid-template-rows: 30px 80px;
+  margin-top: 80px;
+}
+.ctn-3 div button{
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+}
+.ctn-3 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-3 div div{
+  position: relative;
+  top: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+.ctn-3 div div ul{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  transition: .5s all ease;
+  overflow: hidden;
+  margin-top: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-3 div div ul li{
+  margin:6px 10px;
+}
+.remove-3{
+  opacity: 0;
+  transform:translateY(40px);
+  transition: .5s all ease;
+}
+
+
+
+.ctn-4 div{
+  width: 120px;
+  height: 110px;
+  display: grid;
+  grid-template-rows: 30px 80px;
+  margin-top: 80px;
+}
+.ctn-4 div button{
+  background-color: black;
+  color: white;
+}
+.ctn-4 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-4 div div{
+  position: relative;
+  top: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+.ctn-4 div div ul{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: red;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  transition: 1s all ease;
+  overflow: hidden;
+}
+.ctn-4 div div ul li{
+  margin:6px 10px;
+  color: white;
+  white-space: nowrap;
+}
+.remove-4{
+  width: 0px !important;
+  transition: 1s all ease;
+}
+
+
+
+
+
+.ctn-5 div{
+  width: 120px;
+  height: 110px;
+  display: grid;
+  grid-template-rows: 80px 30px;
+  margin-bottom: 80px;
+}
+.ctn-5 div button{
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+z-index: 1000;
+}
+.ctn-5 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-5 div div{
+  position: relative;
+  bottom: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.2s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.ctn-5 div div ul{
+  position: absolute;
+  bottom:0px;
+  left: 0px;
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-5 div div::before{
+  content: " ";
+  position: absolute;
+  width:20px ;
+  height:20px ;
+  background-color: rgb(247, 246, 246);
+  bottom: 6px;
+  left: 10px;
+  z-index: 100;
+  transform: rotate(45deg);
+  border: 1px solid rgb(210, 209, 209);
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-5 div div ul li{
+  margin:6px 10px;
+}
+.remove-5{
+  opacity: 0;
+  transform:translateY(40px);
+  transition: 0.2s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+
+
+
+.ctn-6 div{
+  width: 120px;
+  height: 110px;
+  display: grid;
+  grid-template-rows: 80px 30px;
+  margin-bottom: 80px;
+}
+.ctn-6 div button{
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+z-index: 1000;
+}
+.ctn-6 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-6 div div{
+  position: relative;
+  bottom: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  transition: .5s all;
+  animation-timing-function: ease-in-out;
+}
+.ctn-6 div div ul{
+  position: absolute;
+  bottom:0px;
+  left: 0px;
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-6 div div::before{
+  content: " ";
+  position: absolute;
+  width:20px ;
+  height:20px ;
+  background-color: rgb(247, 246, 246);
+  bottom: 6px;
+  left: 10px;
+  z-index: 100;
+  transform: rotate(45deg);
+  border: 1px solid rgb(210, 209, 209);
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-6 div div ul li{
+  margin:6px 10px;
+}
+.remove-6{
+  opacity: 0;
+  transform:translateX(40px);
+  transition: .5s all;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+.ctn-7 div{
+  width: 240px;
+  height:80px;
+  display: grid;
+  grid-template-columns: 120px 120px;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+.ctn-7 div button{
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+z-index: 1000;
+position: relative;
+top:-35px;
+}
+.ctn-7 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-7 div div{
+  position: relative;
+  bottom: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.2s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 10;
+}
+.ctn-7 div div ul{
+  position: absolute;
+  bottom:0px;
+  left: 0px;
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+  z-index: 1;
+}
+.ctn-7 div div::before{
+  content: " ";
+  position: absolute;
+  width:20px ;
+  height:20px ;
+  background-color: rgb(247, 246, 246);
+  top: -5px;
+  left: -9px;
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  z-index: 1000 !important;
+  transform: rotate(45deg);
+  border: 1px solid rgb(210, 209, 209);
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-7 div div ul li{
+  margin:6px 10px;
+}
+.remove-7{
+  opacity: 0;
+  transform:translateX(-40px);
+  transition: 0.2s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+.ctn-8 div{
+  width: 240px;
+  height:80px;
+  display: grid;
+  grid-template-columns: 120px 120px;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+.ctn-8 div button{
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+z-index: 1000;
+position: relative;
+top:-35px;
+}
+.ctn-8 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-8 div div{
+  position: relative;
+  bottom: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.5s all ease-in-out;
+  z-index: 10;
+}
+.ctn-8 div div ul{
+  position: absolute;
+  bottom:0px;
+  left: 0px;
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+  z-index: 1;
+}
+.ctn-8 div div::before{
+  content: " ";
+  position: absolute;
+  width:20px ;
+  height:20px ;
+  background-color: rgb(247, 246, 246);
+  top: -5px;
+  left: -9px;
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  z-index: 1000 !important;
+  transform: rotate(45deg);
+  border: 1px solid rgb(210, 209, 209);
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-8 div div ul li{
+  margin:6px 10px;
+}
+.remove-8{
+  opacity: 0;
+  transform:translateY(40px);
+  transition: 0.5s all ease-in-out;
+}
+
+
+
+.ctn-9 div{
+  width: 120px;
+  height: 110px;
+  display: grid;
+  grid-template-rows: 30px 80px;
+  margin-top: 80px;
+  margin-left: -7.5px;
+}
+.ctn-9 div button{
+  margin-left: 7.5px;
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+}
+.ctn-9 div button span{
+  margin-left: 4px;
+  transition: 1s all ease;
+}
+.ctn-9 div div{
+  position: relative;
+  top: 0px;
+  width: 120px;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.2s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.ctn-9 div div ul{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: rgb(247, 246, 246);
+  border: 1px solid rgb(210, 209, 209);
+  border-radius: 5px;
+  width: 120px;
+  height: 80px;
+  list-style: none;
+  transition: 0.2s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  overflow: hidden;
+  margin-top: 15px;
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+
+.ctn-9 div div::before{
+  content: " ";
+  position: absolute;
+  width:20px ;
+  height:20px ;
+  background-color: rgb(247, 246, 246);
+  top: 6px;
+  left: 47.5px;
+  clip-path: polygon(0 100%, 0 0, 100% 0);
+  z-index: 1000 !important;
+  transform: rotate(45deg);
+  border: 1px solid rgb(210, 209, 209);
+  -webkit-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px -12px rgba(0,0,0,0.75);  
+}
+.ctn-9 div div ul li{
+  margin:6px 10px;
+}
+.remove-9{
+  opacity: 0;
+  transform:translateY(40px);
+  transition: 0.2s all cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+.rotate{
+  transform: rotate(-180deg);
+  transition: 1s all ease;
+}
